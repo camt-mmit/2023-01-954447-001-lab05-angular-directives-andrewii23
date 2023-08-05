@@ -1,13 +1,23 @@
 <header>
-  <h1 class="title">{{ title }}</h1>
-  <!-- <nav class="nav">
-    <ul>
-      <li></li>
+  <nav class="nav">
+    <ul class="nav-lists">
+      <li class="nav-list">
+        <a class="btn" routerLink="./try-one" routerLinkActive="active"><i class='bx bx-detail' ></i>Try One</a>
+      </li>
+      <li class="nav-list">
+        <a class="btn" routerLink="./try-two" routerLinkActive="active"><i class='bx bx-detail' ></i>Try Two</a>
+      </li>
+      <li class="nav-list">
+        <a class="btn" routerLink="./try-three" routerLinkActive="active"><i class='bx bx-detail' ></i>Try Three</a>
+      </li>
+      <li class="nav-list">
+        <a class="btn" routerLink="./lab-5" routerLinkActive="active"><i class='bx bx-detail' ></i>Assignment</a>
+      </li>
     </ul>
-  </nav> -->
+  </nav>
 </header>
 
-<div class="container" #scrollContent>
+<div class="container">
   <router-outlet></router-outlet>
 </div>
 

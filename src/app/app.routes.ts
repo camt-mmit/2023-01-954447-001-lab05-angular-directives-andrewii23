@@ -1,12 +1,13 @@
-import { TryThreeComponent } from './try-three/try-three.component';
 import { Routes } from '@angular/router';
 import { TryOneComponent } from './try-one/try-one.component';
 import { TryTwoComponent } from './try-two/try-two.component';
-import { TryFourComponent } from './lab-week5/lab-week5.component';
+import { TryThreeComponent } from './try-three/try-three.component';
+import { DynamicSectionComponent } from './dynamic-section/dynamic-section.component';
+import { DynamicInputComponent } from './dynamic-input/dynamic-input.component';
 
 export const routes: Routes = [
   { path: 'try-one', component: TryOneComponent },
   { path: 'try-two', component: TryTwoComponent },
   { path: 'try-three', component: TryThreeComponent },
-  { path: 'lab-week5', component: TryFourComponent },
+  { path: 'lab-5', component: DynamicSectionComponent },
 ];
